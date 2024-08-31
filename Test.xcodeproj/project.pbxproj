@@ -1,6 +1,72 @@
 {
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
     objects = {
-	17E5F60783319A7D34B33B30 = {
+	041009AF7DBA913F79CB4169 = {
+	    buildPhases = (
+		3BB352EC78C2954A7A91731C,
+		5940B394943E2EEEFECE7DC6,
+		5CF0D30F4FD2417FFC99942B
+	    );
+	    buildRules = (
+	    );
+	    dependencies = (
+	    );
+	    isa = PBXNativeTarget;
+	    name = TestFlattenedPlist;
+	    productName = TestFlattenedPlist;
+	    productReference = 4B29DB410EF75270D9B98551;
+	    productType = "com.apple.product-type.tool";
+	};
+	1AD4677E529920791F108C8E = {
+	    children = (
+		FA4F61B51936D4C19EC03683,
+		769263A48EDDD33DC17EC08E
+	    );
+	    isa = PBXGroup;
+	    sourceTree = "<group>";
+	};
+	3BB352EC78C2954A7A91731C = {
+	    buildActionMask = 2147483647;
+	    files = (
+		CA7D45C8D1A434B7BE702E43
+	    );
+	    isa = PBXSourcesBuildPhase;
+	    runOnlyForDeploymentPostprocessing = 0;
+	    showEnvVarsInLog = <*I0>;
+	};
+	3FCA94877808F01D434AF929 = {
+	    compatibilityVersion = "Xcode 14.0";
+	    developmentRegion = en;
+	    hasScannedForEncodings = 0;
+	    isa = PBXProject;
+	    knownRegions = (
+	    );
+	    mainGroup = 1AD4677E529920791F108C8E;
+	    productRefGroup = 85BBE67DA591BE124101F4DD;
+	    projectDirPath = "";
+	    projectRoot = "";
+	    targets = (
+		041009AF7DBA913F79CB4169
+	    );
+	};
+	4B29DB410EF75270D9B98551 = {
+	    explicitFileType = "compiled.mach-o.executable";
+	    isa = PBXFileReference;
+	    path = TestFlattenedPlist;
+	    sourceTree = "BUILT_PRODUCTS_DIR";
+	};
+	5940B394943E2EEEFECE7DC6 = {
+	    buildActionMask = 2147483647;
+	    files = (
+	    );
+	    isa = PBXFrameworksBuildPhase;
+	    runOnlyForDeploymentPostprocessing = 0;
+	    showEnvVarsInLog = <*I0>;
+	};
+	5CF0D30F4FD2417FFC99942B = {
 	    buildActionMask = 2147483647;
 	    dstPath = "/usr/share/man/man1/";
 	    dstSubfolderSpec = 0;
@@ -10,131 +76,58 @@
 	    runOnlyForDeploymentPostprocessing = 1;
 	    showEnvVarsInLog = <*I0>;
 	};
-	21D8C319E745330F6E76A3BE = {
-	    buildPhases = (
-		39E9C9A2299CFE4F6285108C,
-		29E9EBA0522707D012609DE7,
-		17E5F60783319A7D34B33B30
-	    );
-	    buildRules = (
-	    );
-	    dependencies = (
-	    );
-	    isa = PBXNativeTarget;
-	    name = TestFlattenedPlist;
-	    productName = TestFlattenedPlist;
-	    productReference = 7AA9B01FD3FBA2EAB97DFF4A;
-	    productType = "com.apple.product-type.tool";
-	};
-	29E9EBA0522707D012609DE7 = {
-	    buildActionMask = 2147483647;
-	    files = (
-	    );
-	    isa = PBXFrameworksBuildPhase;
-	    runOnlyForDeploymentPostprocessing = 0;
-	    showEnvVarsInLog = <*I0>;
-	};
-	39E9C9A2299CFE4F6285108C = {
-	    buildActionMask = 2147483647;
-	    files = (
-		A7EA4A1B990D0444841319E9
-	    );
-	    isa = PBXSourcesBuildPhase;
-	    runOnlyForDeploymentPostprocessing = 0;
-	    showEnvVarsInLog = <*I0>;
-	};
-	3B339D36E71AF6B5B9A2AA67 = {
-	    children = (
-		EF389FFF774F28D4AFF554EC
-	    );
-	    isa = PBXGroup;
-	    path = TestFlattenedPlist;
+	63936894135FFC1E40086BE6 = {
+	    isa = PBXFileReference;
+	    lastKnownFileType = "sourcecode.c.objc";
+	    path = "main.m";
 	    sourceTree = "<group>";
 	};
-	429925D8AF32E940326B9A45 = {
-	    compatibilityVersion = "Xcode 14.0";
-	    developmentRegion = en;
-	    hasScannedForEncodings = 0;
-	    isa = PBXProject;
-	    knownRegions = (
-	    );
-	    mainGroup = B9F9A7D56D84326D2E6733BB;
-	    productRefGroup = AF41F10040900CC1DC9AAA3F;
-	    projectDirPath = "";
-	    projectRoot = "";
-	    targets = (
-		21D8C319E745330F6E76A3BE
-	    );
-	};
-	6B8F33E11FEC811528D2B2FB = {
+	769263A48EDDD33DC17EC08E = {
 	    children = (
-		72A1227129E466FEB6E26D19
+		F950180534A3064EA27F0946
 	    );
 	    isa = PBXGroup;
 	    name = Products;
 	    sourceTree = "<group>";
 	};
-	72A1227129E466FEB6E26D19 = {
-	    explicitFileType = "compiled.mach-o.executable";
-	    isa = PBXFileReference;
-	    path = TestFlattenedPlist;
-	    sourceTree = "BUILT_PRODUCTS_DIR";
+	85BBE67DA591BE124101F4DD = {
+	    children = (
+		FFFA18035EB76E05186B18DB
+	    );
+	    isa = PBXGroup;
+	    name = Products;
+	    sourceTree = "<group>";
 	};
-	7AA9B01FD3FBA2EAB97DFF4A = {
-	    explicitFileType = "compiled.mach-o.executable";
+	B81F2CEC508664AF10DB17CF = {
 	    isa = PBXFileReference;
-	    path = TestFlattenedPlist;
-	    sourceTree = "BUILT_PRODUCTS_DIR";
+	    lastKnownFileType = "sourcecode.c.objc";
+	    path = "main.m";
+	    sourceTree = "<group>";
 	};
-	A7EA4A1B990D0444841319E9 = {
-	    fileRef = FBF89AB6ECF9FD100C2ED4DE;
+	CA7D45C8D1A434B7BE702E43 = {
+	    fileRef = B81F2CEC508664AF10DB17CF;
 	    isa = PBXBuildFile;
 	};
-	AF41F10040900CC1DC9AAA3F = {
-	    children = (
-		F875EB79EBCF6820129A8C02
-	    );
-	    isa = PBXGroup;
-	    name = Products;
-	    sourceTree = "<group>";
-	};
-	B9F9A7D56D84326D2E6733BB = {
-	    children = (
-		3B339D36E71AF6B5B9A2AA67,
-		6B8F33E11FEC811528D2B2FB
-	    );
-	    isa = PBXGroup;
-	    sourceTree = "<group>";
-	};
-	E48A35DAC88D0B931F4BEBDE = {
-	    archiveVersion = 1;
-	    classes = {
-	    };
-	    isa = PBXContainer;
-	    objectVersion = 56;
-	    objects = {
-	    };
-	    parameter = "Test.xcodeproj";
-	    rootObject = 429925D8AF32E940326B9A45;
-	};
-	EF389FFF774F28D4AFF554EC = {
-	    isa = PBXFileReference;
-	    lastKnownFileType = "sourcecode.c.objc";
-	    path = "main.m";
-	    sourceTree = "<group>";
-	};
-	F875EB79EBCF6820129A8C02 = {
+	F950180534A3064EA27F0946 = {
 	    explicitFileType = "compiled.mach-o.executable";
 	    isa = PBXFileReference;
 	    path = TestFlattenedPlist;
 	    sourceTree = "BUILT_PRODUCTS_DIR";
 	};
-	FBF89AB6ECF9FD100C2ED4DE = {
-	    isa = PBXFileReference;
-	    lastKnownFileType = "sourcecode.c.objc";
-	    path = "main.m";
+	FA4F61B51936D4C19EC03683 = {
+	    children = (
+		63936894135FFC1E40086BE6
+	    );
+	    isa = PBXGroup;
+	    path = TestFlattenedPlist;
 	    sourceTree = "<group>";
 	};
+	FFFA18035EB76E05186B18DB = {
+	    explicitFileType = "compiled.mach-o.executable";
+	    isa = PBXFileReference;
+	    path = TestFlattenedPlist;
+	    sourceTree = "BUILT_PRODUCTS_DIR";
+	};
     };
-    rootObject = 429925D8AF32E940326B9A45;
+    rootObject = 3FCA94877808F01D434AF929;
 }
