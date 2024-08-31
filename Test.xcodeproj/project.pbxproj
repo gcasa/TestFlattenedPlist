@@ -4,119 +4,89 @@
     };
     objectVersion = 56;
     objects = {
-	02ED5577AFA7B716B88D9D6A = {
-	    children = (
-		9781A5E5C609EB59B204B19F
-	    );
-	    isa = PBXGroup;
-	    name = Products;
-	    sourceTree = "<group>";
-	};
-	046F17DB31FB1ABA70B62A17 = {
-	    buildActionMask = 2147483647;
-	    files = (
-		E06AA5FF9162DFE485683D6C
-	    );
-	    isa = PBXSourcesBuildPhase;
-	    runOnlyForDeploymentPostprocessing = 0;
-	};
-	1251AFE04322D2FD2EC84D78 = {
-	    buildPhases = (
-		046F17DB31FB1ABA70B62A17,
-		DD5A8F4BEC053542EDAC406F,
-		ED60DB07B3E30F148D625114
-	    );
-	    buildRules = (
-	    );
-	    dependencies = (
-	    );
-	    isa = PBXNativeTarget;
-	    name = TestFlattenedPlist;
-	    productName = TestFlattenedPlist;
-	    productReference = 41FBB6918EE60BD22443B1BB;
-	    productType = "com.apple.product-type.tool";
-	};
-	41FBB6918EE60BD22443B1BB = {
+	056AC5528F0401D2FD3E18F4 = {
 	    explicitFileType = "compiled.mach-o.executable";
 	    isa = PBXFileReference;
 	    path = TestFlattenedPlist;
 	    sourceTree = "BUILT_PRODUCTS_DIR";
 	};
-	6CC9020B727BA627FB207202 = {
-	    explicitFileType = "compiled.mach-o.executable";
-	    isa = PBXFileReference;
-	    path = TestFlattenedPlist;
-	    sourceTree = "BUILT_PRODUCTS_DIR";
-	};
-	96ED89E329DB7AF210848AA9 = {
-	    children = (
-		6CC9020B727BA627FB207202
-	    );
-	    isa = PBXGroup;
-	    name = Products;
-	    sourceTree = "<group>";
-	};
-	9781A5E5C609EB59B204B19F = {
-	    explicitFileType = "compiled.mach-o.executable";
-	    isa = PBXFileReference;
-	    path = TestFlattenedPlist;
-	    sourceTree = "BUILT_PRODUCTS_DIR";
-	};
-	AC68392BB8583AA7D622F49A = {
-	    children = (
-		BC948B2347FF0F6D96491843,
-		02ED5577AFA7B716B88D9D6A
-	    );
-	    isa = PBXGroup;
-	    sourceTree = "<group>";
-	};
-	BC948B2347FF0F6D96491843 = {
-	    children = (
-		CE41C9829839EFE9A7F901C9
-	    );
-	    isa = PBXGroup;
-	    path = TestFlattenedPlist;
-	    sourceTree = "<group>";
-	};
-	CE41C9829839EFE9A7F901C9 = {
-	    isa = PBXFileReference;
-	    lastKnownFileType = "sourcecode.c.objc";
-	    path = "main.m";
-	    sourceTree = "<group>";
-	};
-	D88DF6B080C954F67C4B5276 = {
-	    isa = PBXFileReference;
-	    lastKnownFileType = "sourcecode.c.objc";
-	    path = "main.m";
-	    sourceTree = "<group>";
-	};
-	D8AD85F5D3737BB38E5135C3 = {
-	    compatibilityVersion = "Xcode 14.0";
-	    developmentRegion = en;
-	    hasScannedForEncodings = 0;
-	    isa = PBXProject;
-	    knownRegions = (
-	    );
-	    mainGroup = AC68392BB8583AA7D622F49A;
-	    productRefGroup = 96ED89E329DB7AF210848AA9;
-	    projectDirPath = "";
-	    projectRoot = "";
-	    targets = (
-		1251AFE04322D2FD2EC84D78
-	    );
-	};
-	DD5A8F4BEC053542EDAC406F = {
+	26DA688DB3033272CE640A82 = {
 	    buildActionMask = 2147483647;
 	    files = (
 	    );
 	    isa = PBXFrameworksBuildPhase;
 	    runOnlyForDeploymentPostprocessing = 0;
 	};
-	E06AA5FF9162DFE485683D6C = {
-	    fileRef = D88DF6B080C954F67C4B5276;
+	2A7C47A6666F3FD87B453131 = {
+	    children = (
+		FA8B2B889D668A466B9C6CDB,
+		2E2CA98E4B7D98C31D45B205
+	    );
+	    isa = PBXGroup;
+	    sourceTree = "<group>";
+	};
+	2E2CA98E4B7D98C31D45B205 = {
+	    children = (
+		3D86FFCE2FA9561311DFA56C
+	    );
+	    isa = PBXGroup;
+	    name = Products;
+	    sourceTree = "<group>";
+	};
+	3D86FFCE2FA9561311DFA56C = {
+	    explicitFileType = "compiled.mach-o.executable";
+	    isa = PBXFileReference;
+	    path = TestFlattenedPlist;
+	    sourceTree = "BUILT_PRODUCTS_DIR";
+	};
+	47C2D845532F56F44466302E = {
+	    children = (
+		EB42DB5FEAF95FD4E9263F2F
+	    );
+	    isa = PBXGroup;
+	    name = Products;
+	    sourceTree = "<group>";
+	};
+	66FC41A112CEF3053B8346BC = {
+	    fileRef = 88B35109470F2095DE56295E;
 	    isa = PBXBuildFile;
 	};
-	ED60DB07B3E30F148D625114 = {
+	68EEAE52F8622B934ED8A366 = {
+	    buildActionMask = 2147483647;
+	    files = (
+		66FC41A112CEF3053B8346BC
+	    );
+	    isa = PBXSourcesBuildPhase;
+	    runOnlyForDeploymentPostprocessing = 0;
+	};
+	88B35109470F2095DE56295E = {
+	    isa = PBXFileReference;
+	    lastKnownFileType = "sourcecode.c.objc";
+	    path = "main.m";
+	    sourceTree = "<group>";
+	};
+	91D56580D75590949F838C34 = {
+	    isa = PBXFileReference;
+	    lastKnownFileType = "sourcecode.c.objc";
+	    path = "main.m";
+	    sourceTree = "<group>";
+	};
+	958C7A9CD2E4DD4B2646731B = {
+	    compatibilityVersion = "Xcode 14.0";
+	    developmentRegion = en;
+	    hasScannedForEncodings = 0;
+	    isa = PBXProject;
+	    knownRegions = (
+	    );
+	    mainGroup = 2A7C47A6666F3FD87B453131;
+	    productRefGroup = 47C2D845532F56F44466302E;
+	    projectDirPath = "";
+	    projectRoot = "";
+	    targets = (
+		EA12D1F37126B073E2E81F6F
+	    );
+	};
+	9785AD0F87F359EC38E2870C = {
 	    buildActionMask = 2147483647;
 	    dstPath = "/usr/share/man/man1/";
 	    dstSubfolderSpec = 0;
@@ -125,6 +95,36 @@
 	    isa = PBXCopyFilesBuildPhase;
 	    runOnlyForDeploymentPostprocessing = 1;
 	};
+	EA12D1F37126B073E2E81F6F = {
+	    buildPhases = (
+		68EEAE52F8622B934ED8A366,
+		26DA688DB3033272CE640A82,
+		9785AD0F87F359EC38E2870C
+	    );
+	    buildRules = (
+	    );
+	    dependencies = (
+	    );
+	    isa = PBXNativeTarget;
+	    name = TestFlattenedPlist;
+	    productName = TestFlattenedPlist;
+	    productReference = 056AC5528F0401D2FD3E18F4;
+	    productType = "com.apple.product-type.tool";
+	};
+	EB42DB5FEAF95FD4E9263F2F = {
+	    explicitFileType = "compiled.mach-o.executable";
+	    isa = PBXFileReference;
+	    path = TestFlattenedPlist;
+	    sourceTree = "BUILT_PRODUCTS_DIR";
+	};
+	FA8B2B889D668A466B9C6CDB = {
+	    children = (
+		91D56580D75590949F838C34
+	    );
+	    isa = PBXGroup;
+	    path = TestFlattenedPlist;
+	    sourceTree = "<group>";
+	};
     };
-    rootObject = D8AD85F5D3737BB38E5135C3;
+    rootObject = 958C7A9CD2E4DD4B2646731B;
 }
