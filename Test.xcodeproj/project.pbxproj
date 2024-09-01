@@ -4,98 +4,25 @@
     };
     objectVersion = 56;
     objects = {
-	"1C872145-5FCE-6606-7522-B18AD0E9980E" = {
+	"0620B3E8-2BC7-8C0C-5ABC-6BF4AADB0269" = {
+	    buildSettings = {
+	    };
+	    isa = XCBuildConfiguration;
+	    name = Debug;
+	};
+	"0F29393A-669C-CF0F-4C3E-E807D1F4F316" = {
 	    children = (
-		"BF5DE408-691F-0303-50C4-1288BFB6CADB"
+		"F34C74E9-C442-0F0F-56BB-66890955A51A"
 	    );
 	    isa = PBXGroup;
 	    name = Products;
 	    sourceTree = "<group>";
 	};
-	"228B86E8-7C67-1B0B-4911-80CE6171D93C" = {
-	    isa = XCBuildConfiguration;
-	    name = Debug;
-	};
-	"228DFCB4-FB4F-B202-4DA5-BFE74DDC5F73" = {
-	    buildActionMask = 2147483647;
-	    files = (
-	    );
-	    isa = PBXFrameworksBuildPhase;
-	    runOnlyForDeploymentPostprocessing = 0;
-	};
-	"2C7E07E1-D6D4-C000-71CC-4384199C6FAE" = {
-	    children = (
-		"412F0B95-0215-B000-4D29-8B0CCF258471",
-		"1C872145-5FCE-6606-7522-B18AD0E9980E"
-	    );
-	    isa = PBXGroup;
-	    sourceTree = "<group>";
-	};
-	"412F0B95-0215-B000-4D29-8B0CCF258471" = {
-	    children = (
-		"747DC6A6-328B-4F0F-4177-6AFBBF6E7537"
-	    );
-	    isa = PBXGroup;
-	    path = TestFlattenedPlist;
-	    sourceTree = "<group>";
-	};
-	"4176D970-3C4A-1E0E-7B89-53FCFC4A812D" = {
-	    buildConfigurations = (
-		"228B86E8-7C67-1B0B-4911-80CE6171D93C"
-	    );
-	    defaultConfigurationName = Debug;
-	    isa = XCConfigurationList;
-	};
-	"43445C47-B479-0F0F-4FF7-F64CF03C42DE" = {
-	    buildActionMask = 2147483647;
-	    dstPath = "/usr/share/man/man1/";
-	    dstSubfolderSpec = 0;
-	    files = (
-	    );
-	    isa = PBXCopyFilesBuildPhase;
-	    runOnlyForDeploymentPostprocessing = 1;
-	};
-	"48D32890-B7EE-5C0C-5038-30EE941C00A7" = {
-	    buildConfigurationList = "4176D970-3C4A-1E0E-7B89-53FCFC4A812D";
-	    compatibilityVersion = "Xcode 14.0";
-	    developmentRegion = en;
-	    hasScannedForEncodings = 0;
-	    isa = PBXProject;
-	    knownRegions = (
-	    );
-	    mainGroup = "2C7E07E1-D6D4-C000-71CC-4384199C6FAE";
-	    productRefGroup = "E618D792-605D-9101-7880-C36E61D192A4";
-	    projectDirPath = "";
-	    projectRoot = "";
-	    targets = (
-		"7EBF69BC-23DC-5A0A-620B-F274B0B855D3"
-	    );
-	};
-	"4AE2C8CC-6E11-1E0E-49D5-5F81D2978704" = {
-	    isa = PBXFileReference;
-	    lastKnownFileType = "sourcecode.c.objc";
-	    path = "main.m";
-	    sourceTree = "<group>";
-	};
-	"4B0CE801-7C26-6404-5295-490769ABB8B8" = {
-	    buildActionMask = 2147483647;
-	    files = (
-		"C64C6DAE-3FD4-F202-584E-FF5AB1043F9A"
-	    );
-	    isa = PBXSourcesBuildPhase;
-	    runOnlyForDeploymentPostprocessing = 0;
-	};
-	"747DC6A6-328B-4F0F-4177-6AFBBF6E7537" = {
-	    isa = PBXFileReference;
-	    lastKnownFileType = "sourcecode.c.objc";
-	    path = "main.m";
-	    sourceTree = "<group>";
-	};
-	"7EBF69BC-23DC-5A0A-620B-F274B0B855D3" = {
+	"1BBBBC98-A8F7-FC0C-5CAC-42781C127046" = {
 	    buildPhases = (
-		"4B0CE801-7C26-6404-5295-490769ABB8B8",
-		"228DFCB4-FB4F-B202-4DA5-BFE74DDC5F73",
-		"43445C47-B479-0F0F-4FF7-F64CF03C42DE"
+		"89911315-E51C-B000-6A48-B742319BD642",
+		"2A6C2860-A0C3-4707-4D87-26382336D0C8",
+		"D59623F2-EDFE-2606-6C4A-9A845A3EE4E3"
 	    );
 	    buildRules = (
 	    );
@@ -104,39 +31,114 @@
 	    isa = PBXNativeTarget;
 	    name = TestFlattenedPlist;
 	    productName = TestFlattenedPlist;
-	    productReference = "EA481E9C-7298-F202-5B43-C1EC10222990";
+	    productReference = "640C9CD7-8177-C303-6213-F6DC4EE06B36";
 	    productType = "com.apple.product-type.tool";
 	};
-	"863AEB11-D182-BE0E-69BD-F2C81649363C" = {
+	"29696014-C297-3F0F-4348-92815B7B9245" = {
 	    explicitFileType = "compiled.mach-o.executable";
 	    isa = PBXFileReference;
 	    path = TestFlattenedPlist;
 	    sourceTree = "BUILT_PRODUCTS_DIR";
 	};
-	"BF5DE408-691F-0303-50C4-1288BFB6CADB" = {
+	"2A6C2860-A0C3-4707-4D87-26382336D0C8" = {
+	    buildActionMask = 2147483647;
+	    files = (
+	    );
+	    isa = PBXFrameworksBuildPhase;
+	    runOnlyForDeploymentPostprocessing = 0;
+	};
+	"38A73ADF-0857-C606-4ABA-F5AF14207165" = {
+	    buildConfigurations = (
+		"0620B3E8-2BC7-8C0C-5ABC-6BF4AADB0269"
+	    );
+	    defaultConfigurationName = Debug;
+	    isa = XCConfigurationList;
+	};
+	"39558027-C7DD-1D0D-62B9-A25C9D35A01F" = {
+	    children = (
+		"8150448A-F9C7-F101-59BA-9EBEE7A54AFB",
+		"C839EA07-4B42-7E0E-4D55-AD5EB67A8021"
+	    );
+	    isa = PBXGroup;
+	    sourceTree = "<group>";
+	};
+	"5EC6A534-3E1D-0E0E-555E-81D4E93EDF6C" = {
+	    buildConfigurationList = "38A73ADF-0857-C606-4ABA-F5AF14207165";
+	    compatibilityVersion = "Xcode 14.0";
+	    developmentRegion = en;
+	    hasScannedForEncodings = 0;
+	    isa = PBXProject;
+	    knownRegions = (
+	    );
+	    mainGroup = "39558027-C7DD-1D0D-62B9-A25C9D35A01F";
+	    productRefGroup = "0F29393A-669C-CF0F-4C3E-E807D1F4F316";
+	    projectDirPath = "";
+	    projectRoot = "";
+	    targets = (
+		"1BBBBC98-A8F7-FC0C-5CAC-42781C127046"
+	    );
+	};
+	"640C9CD7-8177-C303-6213-F6DC4EE06B36" = {
 	    explicitFileType = "compiled.mach-o.executable";
 	    isa = PBXFileReference;
 	    path = TestFlattenedPlist;
 	    sourceTree = "BUILT_PRODUCTS_DIR";
 	};
-	"C64C6DAE-3FD4-F202-584E-FF5AB1043F9A" = {
-	    fileRef = "4AE2C8CC-6E11-1E0E-49D5-5F81D2978704";
+	"78034862-B234-5303-57D8-13B0A9209D55" = {
+	    isa = PBXFileReference;
+	    lastKnownFileType = "sourcecode.c.objc";
+	    path = "main.m";
+	    sourceTree = "<group>";
+	};
+	"8150448A-F9C7-F101-59BA-9EBEE7A54AFB" = {
+	    children = (
+		"C1B0AB67-73A7-FF0F-7274-3C8BA699A235"
+	    );
+	    isa = PBXGroup;
+	    path = TestFlattenedPlist;
+	    sourceTree = "<group>";
+	};
+	"89911315-E51C-B000-6A48-B742319BD642" = {
+	    buildActionMask = 2147483647;
+	    files = (
+		"9549A01A-3CB8-AE0E-4610-CEF9C8F1B4E5"
+	    );
+	    isa = PBXSourcesBuildPhase;
+	    runOnlyForDeploymentPostprocessing = 0;
+	};
+	"9549A01A-3CB8-AE0E-4610-CEF9C8F1B4E5" = {
+	    fileRef = "78034862-B234-5303-57D8-13B0A9209D55";
 	    isa = PBXBuildFile;
 	};
-	"E618D792-605D-9101-7880-C36E61D192A4" = {
+	"C1B0AB67-73A7-FF0F-7274-3C8BA699A235" = {
+	    isa = PBXFileReference;
+	    lastKnownFileType = "sourcecode.c.objc";
+	    path = "main.m";
+	    sourceTree = "<group>";
+	};
+	"C839EA07-4B42-7E0E-4D55-AD5EB67A8021" = {
 	    children = (
-		"863AEB11-D182-BE0E-69BD-F2C81649363C"
+		"29696014-C297-3F0F-4348-92815B7B9245"
 	    );
 	    isa = PBXGroup;
 	    name = Products;
 	    sourceTree = "<group>";
 	};
-	"EA481E9C-7298-F202-5B43-C1EC10222990" = {
+	"D59623F2-EDFE-2606-6C4A-9A845A3EE4E3" = {
+	    buildActionMask = 2147483647;
+	    dstPath = "/usr/share/man/man1/";
+	    dstSubfolderSpec = 0;
+	    files = (
+	    );
+	    isa = PBXCopyFilesBuildPhase;
+	    runOnlyForDeploymentPostprocessing = 1;
+	};
+	"F34C74E9-C442-0F0F-56BB-66890955A51A" = {
 	    explicitFileType = "compiled.mach-o.executable";
 	    isa = PBXFileReference;
 	    path = TestFlattenedPlist;
 	    sourceTree = "BUILT_PRODUCTS_DIR";
 	};
     };
-    rootObject = "48D32890-B7EE-5C0C-5038-30EE941C00A7";
+    rootObject = "5EC6A534-3E1D-0E0E-555E-81D4E93EDF6C";
 }
